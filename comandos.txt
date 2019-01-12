@@ -1,0 +1,1 @@
+Crear componente: ng g c 'nombrecomponente'
