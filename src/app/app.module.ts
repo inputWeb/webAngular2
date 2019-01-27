@@ -10,12 +10,16 @@ import { AppComponent } from './app.component';
 import { materialsModule } from './materialsModule';
 import { LoginComponent } from './login/login.component';
 import { ErrorComponent } from './error/error.component';
+import { ArticulosComponent } from './articulos/articulos.component';
+import { PaginatorComponent } from './paginator/paginator.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    ErrorComponent
+    ErrorComponent,
+    ArticulosComponent,
+    PaginatorComponent
   ],
   imports: [
     BrowserModule,
