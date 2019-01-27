@@ -5,6 +5,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 //Importar las rutas en el core de Angular
 import {routing, appRoutingProviders}  from './app.routing';
 import { AppRoutingModule } from './app-routing-module';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { materialsModule } from './materialsModule';
@@ -26,7 +27,8 @@ import { PaginatorComponent } from './paginator/paginator.component';
     BrowserAnimationsModule,
     materialsModule,
     routing,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [appRoutingProviders],
   bootstrap: [AppComponent]

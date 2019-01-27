@@ -9,9 +9,12 @@ import { Router } from '@angular/router';
 import {throwError} from 'rxjs';
 import { formatDate } from '@angular/common';
 
-@Injectable()
-export class ArticulosService{
-    private urlEndPoint: string = 'http://localhost:8080/api/articulos';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class ArticulosService {
+  private urlEndPoint: string = 'http://localhost:8080/api/articulos';
 
     private httpHeader = new HttpHeaders({'Content-Type': 'application/json'})
 

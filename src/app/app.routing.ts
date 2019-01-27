@@ -8,9 +8,10 @@ import { ErrorComponent } from './error/error.component';
 import { ArticulosComponent } from './articulos/articulos.component';
 
 const appRoutes: Routes = [
-    {path: '', component: LoginComponent},
+    {path: '', component: ArticulosComponent},
     {path: 'login', component: LoginComponent},
     {path: 'articulos', component: ArticulosComponent},
+    {path: 'articulos/page/:page', component: ArticulosComponent},
     {path: '**', component: ErrorComponent}
 ];
 

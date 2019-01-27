@@ -1,26 +1,19 @@
-<div class="card border-primary mb-3">
-  <div class="card-header">Articulos</div>
-  <div class="card-body text-primary">
-    <h5 class="card-title">Listado de articulos</h5>
-    <table class="table table-bordered table-striped">
-      <thead>
-        <tr>
-          <th>id</th>
-          <th>nombre</th>
-          <th>apellido</th>
-          <th>email</th>
-          <th>fecha</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let articulo of articulos">
-          <td>{{ articulo.titulo}}</td>
-          <td>{{ articulo.texto}}</td>
-          <td>{{ articulo.autor}}</td>
-          <td>{{ articulo.fechaCreacion }}</td>
-        </tr>
-      </tbody>
-    </table>
-    <paginator-nav *ngIf="paginador" [paginador] = "paginador"></paginator-nav>
-  </div>
-</div>
+<mat-grid-list cols="6" rowHeight="250px">
+  <mat-grid-tile
+      *ngFor="let card of cards"
+      [colspan]="card.columnas"
+      [rowspan]="card.filas"
+      [style.background]="card.color">
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-card *ngFor="let articulo of articulos">
+    <mat-card-title>{{articulo.titulo}}</mat-card-title>
+    <mat-card-content>{{articulo.texto}}</mat-card-content>
+    <mat-card-footer>
+      <div class="footer">
+        <p>{{articulo.autor}}</p>
+        <p>{{articulo.fechaCreacion}}</p>
+      </div>
+    </mat-card-footer>
+</mat-card>      
