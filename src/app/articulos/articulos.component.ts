@@ -39,16 +39,18 @@ export class ArticulosComponent implements OnInit {
           this.paginador = response;
         }
     );
+    
     })
   }
-  
 
+  
   cards: Cards[] = [
     {texto: 'One', columnas: 3, filas: 1, color: 'lightblue'},
     {texto: 'Two', columnas: 3, filas: 2, color: 'lightgreen'},
     {texto: 'Three', columnas: 3, filas: 1, color: 'lightpink'},
     {texto: 'Four', columnas: 6, filas: 1, color: '#DDBDF1'},
   ];
+
     
 
 }
