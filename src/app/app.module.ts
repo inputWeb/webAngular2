@@ -13,6 +13,7 @@ import { LoginComponent } from './login/login.component';
 import { ErrorComponent } from './error/error.component';
 import { ArticulosComponent } from './articulos/articulos.component';
 import { PaginatorComponent } from './paginator/paginator.component';
+import { SliderNavComponent } from './slider-nav/slider-nav.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PaginatorComponent } from './paginator/paginator.component';
     LoginComponent,
     ErrorComponent,
     ArticulosComponent,
-    PaginatorComponent
+    PaginatorComponent,
+    SliderNavComponent
   ],
   imports: [
     BrowserModule,

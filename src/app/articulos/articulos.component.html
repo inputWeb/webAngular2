@@ -1,14 +1,72 @@
-<mat-grid-list cols="8" rowHeight="100px" *ngFor="let articulo of articulos; let i = index">
-  <mat-grid-tile colspan="{{i+1}}" rowspan="{{i+1}}" style="background:red;">
-    <mat-card>
-      <mat-card-title>{{articulo.titulo}}</mat-card-title>
-      <mat-card-content>{{articulo.texto}}</mat-card-content>
-      <mat-card-footer>
-        <div class="footer">
-          <p>{{articulo.autor}}</p>
-          <p>{{articulo.fechaCreacion}}</p>
-        </div>
-      </mat-card-footer>
-    </mat-card>
-  </mat-grid-tile>
-</mat-grid-list>
+<div class="container-fluid">
+  <div class="row d-flex justify-content-between">
+    <div class="col-lg-offset-1 col-lg-2"  *ngFor="let articulo of articulos">
+      <mat-card>
+        <mat-card-title>{{articulo.titulo}}</mat-card-title>
+          <mat-card-content>{{articulo.texto}}</mat-card-content>
+          <mat-card-footer>
+            <div class="footer">
+              <p>{{articulo.autor}}</p>
+              <p>{{articulo.fechaCreacion}}</p>
+            </div>
+          </mat-card-footer>
+        </mat-card>
+    </div>
+  </div>
+  <div class="row d-flex justify-content-between">
+    <div class="col-lg-offset-1 col-lg-2"  *ngFor="let articulo of articulos">
+      <mat-card>
+        <mat-card-title>{{articulo.titulo}}</mat-card-title>
+          <mat-card-content>{{articulo.texto}}</mat-card-content>
+          <mat-card-footer>
+            <div class="footer">
+              <p>{{articulo.autor}}</p>
+              <p>{{articulo.fechaCreacion}}</p>
+            </div>
+          </mat-card-footer>
+        </mat-card>
+    </div>
+  </div>
+  <div class="row d-flex justify-content-between">
+    <div class="col-lg-offset-1 col-lg-2"  *ngFor="let articulo of articulos">
+      <mat-card>
+        <mat-card-title>{{articulo.titulo}}</mat-card-title>
+          <mat-card-content>{{articulo.texto}}</mat-card-content>
+          <mat-card-footer>
+            <div class="footer">
+              <p>{{articulo.autor}}</p>
+              <p>{{articulo.fechaCreacion}}</p>
+            </div>
+          </mat-card-footer>
+        </mat-card>
+    </div>
+  </div>
+  <div class="row d-flex justify-content-between">
+    <div class="col-lg-offset-1 col-lg-2"  *ngFor="let articulo of articulos">
+      <mat-card>
+        <mat-card-title>{{articulo.titulo}}</mat-card-title>
+          <mat-card-content>{{articulo.texto}}</mat-card-content>
+          <mat-card-footer>
+            <div class="footer">
+              <p>{{articulo.autor}}</p>
+              <p>{{articulo.fechaCreacion}}</p>
+            </div>
+          </mat-card-footer>
+        </mat-card>
+    </div>
+  </div>
+  <div class="row d-flex justify-content-between">
+    <div class="col-lg-offset-1 col-lg-2"  *ngFor="let articulo of articulos">
+      <mat-card>
+        <mat-card-title>{{articulo.titulo}}</mat-card-title>
+          <mat-card-content>{{articulo.texto}}</mat-card-content>
+          <mat-card-footer>
+            <div class="footer">
+              <p>{{articulo.autor}}</p>
+              <p>{{articulo.fechaCreacion}}</p>
+            </div>
+          </mat-card-footer>
+        </mat-card>
+    </div>
+  </div>
+</div>
