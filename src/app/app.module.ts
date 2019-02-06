@@ -11,7 +11,6 @@ import { materialsModule } from './materialsModule';
 import { ErrorComponent } from './error/error.component';
 import { ArticulosComponent } from './articulos/articulos.component';
 import { PaginatorComponent } from './paginator/paginator.component';
-import { SliderNavComponent } from './slider-nav/slider-nav.component';
 import { LoginComponent } from './login/login.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
@@ -21,7 +20,6 @@ import { NavbarComponent } from './navbar/navbar.component';
     ErrorComponent,
     ArticulosComponent,
     PaginatorComponent,
-    SliderNavComponent,
     LoginComponent,
     NavbarComponent
   ],

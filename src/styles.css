@@ -6,3 +6,12 @@
 @import "~@angular/material/prebuilt-themes/purple-green.css";
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 */
+
+/* Se añade padding al contenedor general para que no se solape con el menú de navegación. */
+body {
+  padding-top: 56px;
+}
+
+html, body {
+  height: 100%;
+}
