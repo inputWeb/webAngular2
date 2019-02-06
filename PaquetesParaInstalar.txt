@@ -1,0 +1,25 @@
+Instalar Node.js
+https://nodejs.org/es/
+
+VisualCode o Atom
+https://code.visualstudio.com/
+https://atom.io/
+
+Instalar angular CLI
+npm install -g @angular/cli
+
+Crear un proyecto de angular CLI
+ng new my-dream-app
+
+Copiar carpeta node_modules en el repositorio y borrar el proyecto que acabamos de crear
+
+Angular Materials
+npm install --save @angular/material @angular/cdk @angular/animations
+npm install --save hammerjs
+
+Angular Bootstrap
+npm install bootstrap@4.0.0-beta.2 jquery popper.js --save
+
+SweetAlert
+npm install --save sweetalert2@7.26.9
+Ejemplos: https://sweetalert2.github.io/#examples
