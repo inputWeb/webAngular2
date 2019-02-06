@@ -1,1 +1,59 @@
+/* Estilos para el contenedor del registro e inicio de sesión en la palicación */
+.card {
+  margin: 0 auto;
+  float: none;
+  border-radius: 0.5rem;
+  width: 35rem;
+}
 
+#contenedorGeneral {
+  height: 100%;
+}
+
+.bg {
+  /* Ruta de la imágen específica */
+  /* background-image: url("../../assets/images/fondo.jpg"); */
+
+  /* Height 100% */
+  height: 100%;
+
+  /* Centrado y escalado de la imágen */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#botonGoogle {
+  width: 100%;
+  color: white !important;
+}
+
+#botonFacebook,
+#botonEntrar,
+#botonRegistro,
+#seleccionImagen {
+  width: 100%;
+}
+
+
+#botonRecuperacion {
+  color: grey;
+}
+
+.cierreModal {
+  outline: none;
+}
+
+#upload-file-info {
+  height: 38px;
+  width: 100%;
+}
+
+#my-file-selector {
+  display: none;
+}

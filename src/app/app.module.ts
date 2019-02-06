@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 //Importar las rutas en el core de Angular
 import { routing, appRoutingProviders } from './app.routing';
@@ -27,6 +28,7 @@ import { NavbarComponent } from './navbar/navbar.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    AngularFontAwesomeModule,
     materialsModule,
     routing,
     AppRoutingModule,
