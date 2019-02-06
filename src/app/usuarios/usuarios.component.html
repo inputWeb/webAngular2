@@ -1,0 +1,13 @@
+<table>
+  <tr>
+    <th *ngFor="let columna of columnas">
+      {{columnaol}}
+    </th>
+  </tr>
+
+  <tr *ngFor="let usuario of usuarios | async">
+    <td *ngFor="let columna of columnas">
+      {{usuario[columna]}}
+    </td>
+  </tr>
+</table>

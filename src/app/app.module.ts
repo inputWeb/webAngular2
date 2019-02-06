@@ -14,6 +14,7 @@ import { ArticulosComponent } from './articulos/articulos.component';
 import { PaginatorComponent } from './paginator/paginator.component';
 import { LoginComponent } from './login/login.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     ArticulosComponent,
     PaginatorComponent,
     LoginComponent,
-    NavbarComponent
+    NavbarComponent,
+    UsuariosComponent
   ],
 
   imports: [
